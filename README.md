@@ -17,16 +17,14 @@ In a recent update, the issue of time zones at different observation locations w
 
 1. Before running the script, ensure you have the required Python libraries installed. You can install them via pip:
 
-'''markdown
-'''bash
-$ pip install numpy matplotlib astropy astroplan
+<$ pip install numpy matplotlib astropy astroplan>
 
 
 2. Configuration & Setup
 
 To generate your observation plan, you only need to modify the parameters in the "Run Test Area" at the bottom of the script.
 
-'''python
+<
 site_key = 'TNO'  # e.g., 'GAO' for Lijiang, 'TNO' for Thai National Obs.
 my_location = OBSERVATORIES[site_key]
 my_date = "2026-01-01"
@@ -37,13 +35,15 @@ my_targets = [
     # Example of a standard star (No phase calculation)
     {'name': 'Sirius', 'ra': '06:45:08', 'dec': '-16:42:58', 'period': 0, 't0': 0},
 ]
-
+>
 
 3. Tips for Advanced Use
 
-Altitude Limit: You can change the red warning line on the dashboard by modifying the alt_limit parameter in plot_final_smart_phase_dashboard(..., alt_limit=75).
+Altitude Limit: You can change the red warning line on the dashboard by modifying the alt_limit parameter in
 
-Max Display Curves: To prevent the line chart from becoming too cluttered, the tool defaults to plotting curves for only the first 5 targets. This can be adjusted using the max_display parameter.
+<plot_final_smart_phase_dashboard(..., alt_limit=75)>
+
+Max Display Curves: The tool defaults to plotting curves for only the first 5 targets. This can be adjusted using the max_display parameter.
 
 The output example diagram is as shown in the figure,
 
@@ -52,5 +52,4 @@ The output example diagram is as shown in the figure,
 
 # Acknowledgement
 
-We express our gratitude to the iris robot developed by the Astronomy Society of Nanjing University for the inspiration it has provided.
-ref:https://meteorcollector.github.io/2024/02/iris-description/#%E4%BB%8B%E7%BB%8D
+[We express our gratitude to the iris robot developed by the Astronomy Society of Nanjing University for the inspiration it has provided](https://meteorcollector.github.io/2024/02/iris-description/#%E4%BB%8B%E7%BB%8D)
