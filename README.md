@@ -3,7 +3,7 @@ A simple tool for Astronmical Observation Planning
 
 
 # Obs_plan_v1.ipynb - v1.version
-This is the first version of the sigle-objective observation plan.
+This is the first version of the single-objective observation plan.
 
 The output example diagram is as shown in the figure,
 
