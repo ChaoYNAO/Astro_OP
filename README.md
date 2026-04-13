@@ -17,12 +17,16 @@ In a recent update, the issue of time zones at different observation locations w
 
 1. Before running the script, ensure you have the required Python libraries installed. You can install them via pip:
 
-pip install numpy matplotlib astropy astroplan
+'''markdown
+'''bash
+$ pip install numpy matplotlib astropy astroplan
+
 
 2. Configuration & Setup
 
 To generate your observation plan, you only need to modify the parameters in the "Run Test Area" at the bottom of the script.
 
+'''python
 site_key = 'TNO'  # e.g., 'GAO' for Lijiang, 'TNO' for Thai National Obs.
 my_location = OBSERVATORIES[site_key]
 my_date = "2026-01-01"
