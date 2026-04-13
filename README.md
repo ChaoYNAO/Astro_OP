@@ -5,11 +5,6 @@ A simple tool for Astronmical Observation Planning
 # Obs_plan_v1.ipynb - v1.version
 This is the first version of the single-objective observation plan.
 
-The output example diagram is as shown in the figure,
-
-<img width="1484" height="918" alt="image" src="https://github.com/user-attachments/assets/3b7891c5-53e0-4ed6-bb14-1a3468121e66" />
-
-
 # Obs_plan_v2.ipynb - v2.version
 In this version, we can formulate muti-objective observation plans.
 
