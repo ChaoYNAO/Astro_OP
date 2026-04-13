@@ -52,4 +52,4 @@ The output example diagram is as shown in the figure,
 
 # Acknowledgement
 
-[We express our gratitude to the iris robot developed by the Astronomy Society of Nanjing University for the inspiration it has provided](https://meteorcollector.github.io/2024/02/iris-description/#%E4%BB%8B%E7%BB%8D)
+We express our gratitude to the [iris](https://meteorcollector.github.io/2024/02/iris-description/#%E4%BB%8B%E7%BB%8D) robot developed by the Astronomy Society of Nanjing University for the inspiration it has provided
