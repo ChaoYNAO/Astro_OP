@@ -17,14 +17,14 @@ In a recent update, the issue of time zones at different observation locations w
 
 1. Before running the script, ensure you have the required Python libraries installed. You can install them via pip:
 
-<$ pip install numpy matplotlib astropy astroplan>
+`$ pip install numpy matplotlib astropy astroplan`
 
 
 2. Configuration & Setup
 
 To generate your observation plan, you only need to modify the parameters in the "Run Test Area" at the bottom of the script.
 
-<
+```
 site_key = 'TNO'  # e.g., 'GAO' for Lijiang, 'TNO' for Thai National Obs.
 my_location = OBSERVATORIES[site_key]
 my_date = "2026-01-01"
@@ -35,13 +35,13 @@ my_targets = [
     # Example of a standard star (No phase calculation)
     {'name': 'Sirius', 'ra': '06:45:08', 'dec': '-16:42:58', 'period': 0, 't0': 0},
 ]
->
+```
 
 3. Tips for Advanced Use
 
 Altitude Limit: You can change the red warning line on the dashboard by modifying the alt_limit parameter in
 
-<plot_final_smart_phase_dashboard(..., alt_limit=75)>
+`plot_final_smart_phase_dashboard(..., alt_limit=75)
 
 Max Display Curves: The tool defaults to plotting curves for only the first 5 targets. This can be adjusted using the max_display parameter.
 
